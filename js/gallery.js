@@ -12,16 +12,22 @@ slides.forEach(
     }
 )
 
+
+
+const goNextBtn = () => {
+    isSlideShow = false
+    goNext()
+}
+
 const goNext = () => {
-    // isSlideShow = false
     if (counter < slides.length - 1) {
-    counter++
-    slideImg()
+        counter++
+        slideImg()
     }
 }
 
 const goPre = () => {
-    // isSlideShow = false
+    isSlideShow = false
     if (counter > 0) {
     counter--
     slideImg()
@@ -43,15 +49,18 @@ const slideImg = () => {
     )
 }
 
+const switchSlideShow  = () => {
+    isSlideShow = true
+    slideShow()
+}
+
 const slideShow = () => {
-    // isSlideShow = true
-    // if (isSlideShow) {
+    if (isSlideShow) {
     goNext()
+
     if (counter == slides.length - 1){
-        counter = 0;
+        isSlideShow = false
     }
     setTimeout(slideShow, 2000);
-// } else {
-//     return
-// }
+    }
 }

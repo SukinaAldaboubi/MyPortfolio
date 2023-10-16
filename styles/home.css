@@ -5,7 +5,6 @@ body {
     flex-direction: column;
     justify-content: space-between;
     background-color: azure;
-    color: cadetblue;
 }
 
 h2 {
@@ -30,6 +29,7 @@ h2 {
     padding: 16px 16px 16px;
     margin-bottom: 16px;
     background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
 }
 
 .project-sections:hover {
