@@ -1,0 +1,8 @@
+body {
+  margin: 32px 32px 32px;
+  background-color: blanchedalmond;
+}
+
+.education-list {
+  list-style-type:square;
+}

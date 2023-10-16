@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: azure;
+    color: cadetblue;
+}
+
+h2 {
+    font-family: "Sofia", sans-serif;;
+}
+
+.project-sections img {
+    width: 100px;
+    height: 100px;
+    border: 1px;
+    border-style: solid;
+    border-color: aquamarine;
+    border-radius: 16px;
+    box-shadow: 5px 5px 2px gray;
+}
+
+.project-sections img:hover {
+    opacity: 0.5;
+}
+
+.project-sections {
+    padding: 16px 16px 16px;
+    margin-bottom: 16px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.project-sections:hover {
+    background-color: gray;
+}
+

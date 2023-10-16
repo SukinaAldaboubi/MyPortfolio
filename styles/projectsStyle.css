@@ -1,0 +1,38 @@
+body {
+    width: 60rem;
+    margin: 32px 32px 32px ;
+    background-color: blanchedalmond;
+}
+
+h3 {
+    margin-bottom: 32px;
+}
+
+.project-list {
+    width: 70%;
+    list-style-type: none;
+}
+
+.project-list li {
+    padding-bottom: 16px;
+}
+
+.project-list li img{
+    width: 100px;
+    height: 100px;
+}
+
+.project-list .imgs-container {
+    float: right;
+}
+
+@media (max-width: 768px) {
+    .project-list .imgs-container {
+        float: none;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+    }
+}

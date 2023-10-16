@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+
+body {
+  margin: 32px 32px 32px;
+  background-color: blanchedalmond;
+}
+
+h1 {
+  font-family: "Sofia", sans-serif;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.nav-item {
+  display: flex;
+  float: left;
+}
+
+.nav-item a {
+  display: flex;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  background-color: #111111;
+}  
+
+.nav-item a:active {
+  background-color: #111111;
+}
+
