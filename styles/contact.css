@@ -1,11 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     margin: 32px 32px 32px;
     background-color: blanchedalmond;
+    padding: 0;
 }
 
 .contact-form {
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
     width: 20rem;
+    align-items: center;
     border-style: solid;
     border-width: 1px;
     border-color: rgba(0, 0, 0, 0.3);
@@ -14,20 +22,24 @@ body {
     border-radius: 16px;
 }
 
+.contact-form label {
+    width: 100%;
+    text-align: left;
+}
+
 .contact-form input {
-    width: 90%;
-    margin-bottom: 16px;
+    width: 100%;
 }
 
 .contact-form .submit {
     text-align: center;
     width: 30%;
     height: 30px;
-    background-color: rgba(81, 190, 60, 0.3);
+    background-color: rgb(51, 119, 37, 0.5);
     border: 0;
     border-radius: 16px;
 }
 
 .contact-form .submit:hover {
-    background-color: rgba(81, 190, 60)
+    background-color: rgba(36, 93, 25);
 }
